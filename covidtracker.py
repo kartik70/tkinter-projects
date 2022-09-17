@@ -7,7 +7,7 @@ covid = Covid()
 
 
 window = tk.Tk()
-window.title("COVID TRACKER")
+window.title("COVID TRACKER ")
 window.geometry("500x500")
 window.configure(background="black")
 
