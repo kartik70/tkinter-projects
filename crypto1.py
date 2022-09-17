@@ -10,7 +10,7 @@ def getBitcoinPrice():
     priceFloat = float(json.loads(r.text)['last'])
     return priceFloat
   except requests.ConnectionError:
-    print("Error querying Bitstamp API")
+    print("Error querying Bitstamp API  ")
 
 
 window = tkinter.Tk()
